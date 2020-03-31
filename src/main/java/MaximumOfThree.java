@@ -20,4 +20,14 @@ public class MaximumOfThree {
             return thirdFloat;
         }
     }
+    //Function to Find Maximum String of given 3 different string
+    public String findMaxString(String firstString , String secondString, String thirdString){
+        if(firstString.length() > secondString.length() && firstString.length() > thirdString.length()){
+            return firstString;
+        }else if(secondString.length() > firstString.length() && secondString.length() > thirdString.length()){
+            return secondString;
+        }else{
+            return thirdString;
+        }
+    }
 }
