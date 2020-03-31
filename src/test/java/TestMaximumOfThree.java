@@ -30,4 +30,13 @@ public class TestMaximumOfThree {
         int checkMaxInteger = objectOfMaximumOfThree.findMaxInteger(112,450,870); //Here Max Integer is at Third Position
         Assert.assertEquals(870,checkMaxInteger);
     }
+
+    //Test should pass only if First Float is Maximum of three
+    @Test
+    public void givenThreeInput_MaxFloatAtFirstPosition_shouldReturnMaximumFloatNumber()
+    {
+        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
+        float checkFloat = objectOfMaximumOfThree.findMaxFloat(120.45f,45.67f,100.00f); //Here Max Float Number is at first position
+        Assert.assertEquals(java.util.Optional.of((Float)120.45f), java.util.Optional.of(checkFloat));
+    }
 }
