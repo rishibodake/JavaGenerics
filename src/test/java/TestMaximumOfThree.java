@@ -81,9 +81,10 @@ public class TestMaximumOfThree {
     public void givenThreeInput_maxStringAtThirdPosition_shouldReturnMaximumString()
     {
         objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        String checkString = objectOfMaximumOfThree.findMaxString("Apples","Banana","GuavaMilkShake"); //Here Max String is at Third Position
+        String checkString = objectOfMaximumOfThree.findMaxString("Apples","Banana","GuavaMilkShake"); //Here Max String is at Third Position..
         Assert.assertEquals("GuavaMilkShake",checkString);
     }
+
 
 
 
