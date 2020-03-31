@@ -8,79 +8,79 @@ public class TestMaximumOfThree {
     @Test
     public void givenThreeInput_maxIntegerAtFirstPosition_shouldReturnMaximum()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum(5,3,1); //Here Max Integer is at first position
-        Assert.assertEquals(5,checkMaxInteger);
+        objectOfMaximumOfThree = new MaximumOfThree(5,3,1); //Passing values though constructor
+        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.firstInput,checkMaxInteger); //firstInput here is 5
     }
     //Test should pass only if second Integer is maximum out of three
     @Test
     public void givenThreeInput_MaxIntegerAtSecondPosition_shouldReturnMaximum()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum(65,110,87); //Here Max Integer is at Second Position
-        Assert.assertEquals(110,checkMaxInteger);
+        objectOfMaximumOfThree = new MaximumOfThree(65,110,87); //Instantiation or object address passing to objectOfMaximumOfThree and passing values through constructor
+        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.secondInput,checkMaxInteger); //secondInput here is 110
     }
 
     //Test should pass only if third Integer is maximum out of three
     @Test
     public void givenThreeInput_MaxIntegerAtThirdPosition_shouldReturnMaximum()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum(112,450,870); //Here Max Integer is at Third Position
-        Assert.assertEquals(870,checkMaxInteger);
+        objectOfMaximumOfThree = new MaximumOfThree(112,450,870); //Instantiation or object address passing to objectOfMaximumOfThree and passing values though constructor
+        int checkMaxInteger = (int) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.thirdInput,checkMaxInteger); //thirdInput here is 870
     }
 
     //Test should pass only if First Float is Maximum of three
     @Test
     public void givenThreeInput_MaxFloatAtFirstPosition_shouldReturnMaximumFloatNumber()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        float checkFloat = (float) objectOfMaximumOfThree.findMaximum(120.45f,45.67f,100.00f); //Here Max Float Number is at first position
-        Assert.assertEquals(java.util.Optional.of((Float)120.45f), java.util.Optional.of(checkFloat));
+        objectOfMaximumOfThree = new MaximumOfThree(120.45f,45.67f,100.00f); //Instantiation or object address passing to objectOfMaximumOfThree pass through constructor
+        float checkFloat = (float) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.firstInput, checkFloat); //firstInput here is 120.45f
     }
 
     //Test should pass only if Second Float is Maximum of three
     @Test
     public void givenThreeInput_maxFloatAtSecondPosition_shouldReturnMaximumFloatNumber()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        float checkFloat = (float) objectOfMaximumOfThree.findMaximum(120.45f,450.67f,100.00f); //Here Max Float Number is at Second position //Casted to float
-        Assert.assertEquals(java.util.Optional.of((Float)450.67f), java.util.Optional.of(checkFloat));
+        objectOfMaximumOfThree = new MaximumOfThree(120.45f,450.67f,100.00f); //Instantiation or object address passing to objectOfMaximumOfThree
+        float checkFloat = (float) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.secondInput, checkFloat); //secondInput here is 450.45f
     }
 
     //Test should pass only if Third Float is Maximum of three
     @Test
     public void givenThreeInput_maxFloatAtThirdPosition_shouldReturnMaximumFloatNumber()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        float checkFloat = (float) objectOfMaximumOfThree.findMaximum(120.45f,45.67f,1000.00f); //Here Max Float Number is at Third position
-        Assert.assertEquals(java.util.Optional.of((Float)1000.00f), java.util.Optional.of(checkFloat));
+        objectOfMaximumOfThree = new MaximumOfThree(120.45f,45.67f,1000.00f); //Instantiation or object address passing to objectOfMaximumOfThree
+        float checkFloat = (float) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.thirdInput, checkFloat);// thirdInput here is 1000.00f
     }
 
     //Test should pass only if First String is maximum out of three
     @Test
     public void givenThreeInput_maxStringAtFirstPosition_shouldReturnMaximumString()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        String checkString = (String) objectOfMaximumOfThree.findMaximum("Appples","Banana","Guava"); //Here Max String is at Fisrt Position
-        Assert.assertEquals("Appples",checkString);
+        objectOfMaximumOfThree = new MaximumOfThree("Appples","Banana","Guava"); //Instantiation or object address passing to objectOfMaximumOfThree
+        String checkString = (String) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.firstInput,checkString); // firstInput here is Appples
     }
 
     //Test should pass only if Second String is maximum out of three
     @Test
     public void givenThreeInput_maxStringAtSecondPosition_shouldReturnMaximumString()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        String checkString = (String) objectOfMaximumOfThree.findMaximum("Apples","BananaIceCream","Guava"); //Here Max String is at Second Position
-        Assert.assertEquals("BananaIceCream",checkString);
+        objectOfMaximumOfThree = new MaximumOfThree("Apples","BananaIceCream","Guava"); //Instantiation or object address passing to objectOfMaximumOfThree
+        String checkString = (String) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.secondInput,checkString);// secondInput here is BananaIceCream
     }
 
     //Test should pass only if Third String is maximum out of three
     @Test
     public void givenThreeInput_maxStringAtThirdPosition_shouldReturnMaximumString()
     {
-        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
-        String checkString = (String) objectOfMaximumOfThree.findMaximum("Apples","Banana","GuavaMilkShake"); //Here Max String is at Third Position..
-        Assert.assertEquals("GuavaMilkShake",checkString);
+        objectOfMaximumOfThree = new MaximumOfThree("Apples","Banana","GuavaMilkShake"); //Instantiation or object address passing to objectOfMaximumOfThree
+        String checkString = (String) objectOfMaximumOfThree.findMaximum();
+        Assert.assertEquals(objectOfMaximumOfThree.thirdInput,checkString); //thirdInput here is GuavaMilkShake
     }
 }

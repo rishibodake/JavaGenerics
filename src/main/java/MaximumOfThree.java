@@ -13,6 +13,12 @@ public class MaximumOfThree<E extends Comparable<E>> {
         this.secondInput=secondInput;
         this.thirdInput=thirdInput;
     }
+
+    //function without parameter
+    public E findMaximum(){
+        E maximumResult = findMaximum(firstInput,secondInput,thirdInput);
+        return maximumResult;
+    }
     //Generic function that accepts all the data types
     public <E extends Comparable> E findMaximum(E firstInput, E secondInput, E thirdInput){
         //<< >> != operators does not work in generics thus using .compare
