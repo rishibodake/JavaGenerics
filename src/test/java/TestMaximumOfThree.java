@@ -67,5 +67,14 @@ public class TestMaximumOfThree {
         Assert.assertEquals("Appples",checkString);
     }
 
+    //Test should pass only if Second String is maximum out of three
+    @Test
+    public void givenThreeInput_maxStringAtSecondPosition_shouldReturnMaximumString()
+    {
+        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
+        String checkString = objectOfMaximumOfThree.findMaxString("Apples","BananaIceCream","Guava"); //Here Max String is at Second Position
+        Assert.assertEquals("BananaIceCream",checkString);
+    }
+
 
 }
