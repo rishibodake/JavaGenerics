@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ad5f795-0dfb-4b53-b0e0-b7dafdc6bd70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main/java/MaximumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/MaximumOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/TestMaximumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/TestMaximumOfThree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZtKtlrqpnsNBCzh7IhUGjIubE3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxStringAtLastPosition_shouldReturnMaximumString">
+    <configuration name="TestMaximumOfThree.givenNNumberOfInput_maxFloatAtFirstPosition_shouldReturnMaximumFloatNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMaximumOfThree" />
+      <option name="METHOD_NAME" value="givenNNumberOfInput_maxFloatAtFirstPosition_shouldReturnMaximumFloatNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMaximumOfThree.givenNNumberOfInput_maxFloatAtLastPosition_shouldReturnMaximumFloatNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMaximumOfThree" />
+      <option name="METHOD_NAME" value="givenNNumberOfInput_maxFloatAtLastPosition_shouldReturnMaximumFloatNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMaximumOfThree.givenNNumberOfInput_maxFloatAtSecondPosition_shouldReturnMaximumFloatNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMaximumOfThree" />
+      <option name="METHOD_NAME" value="givenNNumberOfInput_maxFloatAtSecondPosition_shouldReturnMaximumFloatNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMaximumOfThree.givenNNumberOfInput_maxStringAtLastPosition_shouldReturnMaximumString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMaximumOfThree" />
+      <option name="METHOD_NAME" value="givenNNumberOfInput_maxStringAtLastPosition_shouldReturnMaximumString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMaximumOfThree.givenNNumberOfInput_maxStringAtSecondPosition_shouldReturnMaximumString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMaximumOfThree" />
+      <option name="METHOD_NAME" value="givenNNumberOfInput_maxStringAtSecondPosition_shouldReturnMaximumString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxStringAtLastPosition_shouldReturnMaximumString" />
+        <item itemvalue="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxStringAtSecondPosition_shouldReturnMaximumString" />
+        <item itemvalue="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxFloatAtLastPosition_shouldReturnMaximumFloatNumber" />
+        <item itemvalue="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxFloatAtSecondPosition_shouldReturnMaximumFloatNumber" />
+        <item itemvalue="JUnit.TestMaximumOfThree.givenNNumberOfInput_maxFloatAtFirstPosition_shouldReturnMaximumFloatNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ad5f795-0dfb-4b53-b0e0-b7dafdc6bd70" name="Default Changelist" comment="" />
+      <created>1585653166485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585653166485</updated>
+      <workItem from="1585653170389" duration="3249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1585656447148">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.796@0.23.1440.796" timestamp="1585656447148" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1585656447146">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.796@0.23.1440.796" timestamp="1585656447146" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1585656447145">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.796@0.23.1440.796" timestamp="1585656447145" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1585656447146">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.796@0.23.1440.796" timestamp="1585656447146" />
+    <state x="446" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585653262293">
+      <screen x="0" y="23" width="1440" height="796" />
+    </state>
+    <state x="446" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.796@0.23.1440.796" timestamp="1585653262293" />
+  </component>
+</project>
