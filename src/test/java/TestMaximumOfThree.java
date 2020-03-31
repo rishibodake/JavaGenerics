@@ -21,4 +21,13 @@ public class TestMaximumOfThree {
         int checkMaxInteger = objectOfMaximumOfThree.findMaxInteger(65,110,87); //Here Max Integer is at Second Position
         Assert.assertEquals(110,checkMaxInteger);
     }
+
+    //Test should pass only if third Integer is maximum out of three
+    @Test
+    public void givenThreeInput_MaxIntegerAtThirdPosition_shouldReturnMaximum()
+    {
+        objectOfMaximumOfThree = new MaximumOfThree(); //Instantiation or object address passing to objectOfMaximumOfThree
+        int checkMaxInteger = objectOfMaximumOfThree.findMaxInteger(112,450,870); //Here Max Integer is at Third Position
+        Assert.assertEquals(870,checkMaxInteger);
+    }
 }
